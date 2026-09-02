@@ -22,7 +22,7 @@ NOTE: Currently, only Play/Pause is (experimentally) supported, as Replayer does
     # Privileged execution is necessary to get access to keyboard input
     sudo ./replayer-keymap.py
 
-    Output should be like:
+Output should be like:
 
     Using keyboard: Logitech MX Keys
     Device: /dev/input/event4
