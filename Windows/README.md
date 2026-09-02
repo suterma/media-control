@@ -16,6 +16,7 @@ Currently, only Play/Pause is (experimentally) supported, as Replayer does not y
 
 ### Startup
 
+    # No privileged execution is necessary, because AutoHotkey runs in user space
     ./AutoHotkey64.exe replayer.ahk
 
 ### Shutdown
