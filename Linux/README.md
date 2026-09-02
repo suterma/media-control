@@ -1,6 +1,6 @@
 # Linux media control for Replayer (Experimental)
 
-A simple python script that maps some of the existing [Replayer keyboard shortcuts](https://replayer.app/en/documentation/keyboard-shortcuts) to media events on a virtual keyboard. 
+A simple python script that maps some of the existing [Replayer keyboard shortcuts](https://replayer.app/en/documentation/keyboard-shortcuts) to system media events.
 
 NOTE: Currently, only Play/Pause is (experimentally) supported, as Replayer does not yet provide extensive media control itself.
 
@@ -8,7 +8,7 @@ NOTE: Currently, only Play/Pause is (experimentally) supported, as Replayer does
 
 ### Installation
 
-    # Install Python itself, if necessary, then install evdev to handle keyboard input events
+    # After installing Python itself, install evdev to handle keyboard input events
     sudo apt install python3-evdev
     
     # Get the script
@@ -17,16 +17,19 @@ NOTE: Currently, only Play/Pause is (experimentally) supported, as Replayer does
     # Make it executable
     chmod +x replayer-keymap.py
 
-    # Get the script
-    wget https://github.com/suterma/media-control/raw/refs/heads/main/Linux/replayer-keymap.py
-
-    # Make it executable
-    chmod +x replayer-keymap.py
-
 ### Startup
 
     # Privileged execution is necessary to get access to keyboard input
     sudo ./replayer-keymap.py
+
+    Output should be like:
+
+    Using keyboard: Logitech MX Keys
+    Device: /dev/input/event4
+    Starting Replayer key mapping ...
+    Press Ctrl+C to stop.
+    Mapping active.
+
 
 ### Shutdown
 
