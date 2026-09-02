@@ -16,7 +16,6 @@ Currently, only Play/Pause is (experimentally) supported, as Replayer does not y
 
 ### Startup
 
-    # Privileged execution is necessary to get access to keyboard input
     ./AutoHotkey64.exe replayer.ahk
 
 ### Shutdown
