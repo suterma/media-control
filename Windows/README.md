@@ -21,5 +21,6 @@ Currently, only Play/Pause is (experimentally) supported, as Replayer does not y
 
 ### Shutdown
 
-Close the AutoHotkey UI window.
+- in the Terminal: `taskkill /im "AutoHotkey64.exe"`
+- Or use the [taskbar icon](https://www.autohotkey.com/docs/v1/Program.htm#tray-icon)
 
