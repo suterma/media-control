@@ -12,7 +12,8 @@ Currently, only Play/Pause is (experimentally) supported, as Replayer does not y
 [Download AutoHotkey](https://www.autohotkey.com/download/). You might run the installer EXE, or just extract the portable version from their ZIP distribution.
 
     # Get the script, in PowerShell:
-    Invoke-WebRequest -Uri 'https://github.com/suterma/media-control/raw/refs/heads/main/Windows/replayer.ahk'  
+    Invoke-WebRequest -Uri 'https://github.com/suterma/media-control/raw/refs/heads/main/Windows/replayer.ahk' -OutFile 'replayer.ahk'
+
 
 ### Startup
 
